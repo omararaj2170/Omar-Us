@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starfall Syndicate</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <header>
+        <h1 id="gameTitle">Starfall Syndicate</h1>
+        <p id="mapName">Map: Skeld Classic</p>
+        <p id="matchStatus">Status: connecting...</p>
+        <p id="taskProgress">Tasks: 0/0</p>
+        <p id="announcement">Welcome to the station.</p>
+      </header>
+
+      <section>
+        <h2>Map</h2>
+        <div class="map-wrap">
+          <img id="mapImage" src="/assets/maps/skeld-classic.svg" alt="Skeld Classic map" />
+          <canvas id="mapCanvas"></canvas>
+        </div>
+      </section>
+
+      <section>
+        <h2>Active Addons</h2>
+        <div id="addons" class="addons"></div>
+        <h3>Task Pool</h3>
+        <ul id="taskPool"></ul>
+      </section>
+
+      <section>
+        <h2>Players</h2>
+        <div id="playerList" class="player-list"></div>
+      </section>
+
+      <section>
+        <h2>Controls</h2>
+        <ul>
+          <li>Arrows = move</li>
+          <li>T = complete random task from task pool</li>
+          <li>V = vent, X = vitals, I = invisible</li>
+          <li>R = report, M = meeting, 1 = vote first player</li>
+        </ul>
+      </section>
+    </main>
+
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

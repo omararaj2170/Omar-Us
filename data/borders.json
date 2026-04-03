@@ -1,0 +1,35 @@
+{
+  "skeld-classic": {
+    "width": 1024,
+    "height": 576,
+    "zones": [
+      { "name": "Cafeteria", "x": 375, "y": 18, "w": 295, "h": 205 },
+      { "name": "MedBay", "x": 285, "y": 122, "w": 120, "h": 145 },
+      { "name": "Navigation", "x": 865, "y": 130, "w": 120, "h": 178 },
+      { "name": "Upper Engine", "x": 80, "y": 70, "w": 145, "h": 132 },
+      { "name": "Reactor", "x": 70, "y": 190, "w": 145, "h": 130 },
+      { "name": "Security", "x": 213, "y": 200, "w": 70, "h": 72 },
+      { "name": "Admin", "x": 550, "y": 225, "w": 118, "h": 100 },
+      { "name": "O2", "x": 760, "y": 130, "w": 95, "h": 90 },
+      { "name": "Electrical", "x": 355, "y": 280, "w": 135, "h": 120 },
+      { "name": "Shields", "x": 820, "y": 365, "w": 130, "h": 110 },
+      { "name": "Lower Engine", "x": 100, "y": 320, "w": 150, "h": 120 },
+      { "name": "Communications", "x": 695, "y": 420, "w": 120, "h": 75 },
+      { "name": "Weapons", "x": 735, "y": 38, "w": 90, "h": 85 }
+    ]
+  },
+  "orbital-one": {
+    "width": 1280,
+    "height": 720,
+    "zones": [
+      { "name": "Bridge", "x": 70, "y": 40, "w": 240, "h": 140 },
+      { "name": "Cafeteria", "x": 360, "y": 60, "w": 320, "h": 170 },
+      { "name": "Medbay", "x": 750, "y": 80, "w": 210, "h": 130 },
+      { "name": "Security", "x": 980, "y": 230, "w": 200, "h": 140 },
+      { "name": "Engine", "x": 80, "y": 300, "w": 300, "h": 210 },
+      { "name": "Reactor", "x": 420, "y": 300, "w": 260, "h": 220 },
+      { "name": "Comms", "x": 730, "y": 290, "w": 200, "h": 170 },
+      { "name": "Storage", "x": 980, "y": 430, "w": 210, "h": 180 }
+    ]
+  }
+}

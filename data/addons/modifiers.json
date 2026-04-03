@@ -1,0 +1,28 @@
+{
+  "modifiers": [
+    {
+      "id": "double_tasks",
+      "name": "Double Task Night",
+      "description": "Task progress gained per completion is doubled.",
+      "effects": {
+        "taskMultiplier": 2
+      }
+    },
+    {
+      "id": "silent_running",
+      "name": "Silent Running",
+      "description": "Meeting callouts are shorter and less frequent.",
+      "effects": {
+        "announcementTrim": true
+      }
+    },
+    {
+      "id": "hyper_vents",
+      "name": "Hyper Vents",
+      "description": "Venting cooldown reduced and jump distance increased.",
+      "effects": {
+        "ventBoost": 2
+      }
+    }
+  ]
+}

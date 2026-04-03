@@ -1,0 +1,44 @@
+{
+  "skeld-classic": {
+    "vents": [
+      { "id": "cafeteria", "x": 10, "y": 3 },
+      { "id": "medbay", "x": 8, "y": 6 },
+      { "id": "security", "x": 3, "y": 9 },
+      { "id": "reactor", "x": 1, "y": 9 },
+      { "id": "upper_engine", "x": 2, "y": 4 },
+      { "id": "lower_engine", "x": 2, "y": 14 },
+      { "id": "electrical", "x": 8, "y": 12 },
+      { "id": "admin", "x": 11, "y": 8 },
+      { "id": "navigation", "x": 18, "y": 6 },
+      { "id": "shields", "x": 17, "y": 14 }
+    ],
+    "links": {
+      "cafeteria": ["medbay", "admin"],
+      "medbay": ["cafeteria", "security"],
+      "security": ["medbay", "reactor", "upper_engine"],
+      "reactor": ["security", "upper_engine", "lower_engine"],
+      "upper_engine": ["reactor", "security"],
+      "lower_engine": ["reactor", "electrical"],
+      "electrical": ["lower_engine", "admin"],
+      "admin": ["cafeteria", "electrical", "shields"],
+      "navigation": ["shields"],
+      "shields": ["admin", "navigation"]
+    }
+  },
+  "orbital-one": {
+    "vents": [
+      { "id": "cafeteria", "x": 8, "y": 4 },
+      { "id": "engine", "x": 2, "y": 10 },
+      { "id": "security", "x": 11, "y": 9 },
+      { "id": "reactor", "x": 1, "y": 14 },
+      { "id": "medbay", "x": 6, "y": 8 }
+    ],
+    "links": {
+      "cafeteria": ["medbay", "security"],
+      "medbay": ["cafeteria", "reactor"],
+      "security": ["cafeteria", "engine"],
+      "engine": ["security", "reactor"],
+      "reactor": ["engine", "medbay"]
+    }
+  }
+}

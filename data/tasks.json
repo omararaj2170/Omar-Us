@@ -1,0 +1,24 @@
+{
+  "taskPools": {
+    "skeld-classic": [
+      "swipe-card",
+      "stabilize-steering",
+      "clear-asteroids",
+      "prime-shields",
+      "align-engine-output",
+      "fix-wiring",
+      "upload-data",
+      "empty-chute",
+      "start-reactor"
+    ],
+    "orbital-one": [
+      "calibrate-reactor",
+      "align-sensors",
+      "prime-fuel-lines",
+      "upload-logs",
+      "route-power",
+      "stabilize-oxygen",
+      "decrypt-channel"
+    ]
+  }
+}
