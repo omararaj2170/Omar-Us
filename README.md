@@ -28,3 +28,8 @@ Then open `http://localhost:3000`.
 - `public/js/*.js` - modular frontend state/actions/render/controls/socket/map/border/addons
 - `public/assets/maps/*.svg` - image maps
 - `data/*.json` and `data/addons/*.json` - roles, maps, borders, vents, tasks, settings, addons
+
+
+## Included map
+
+- `Skeld Classic` is the default in-game map image with room names tracked in `data/maps.json` and borders in `data/borders.json`.

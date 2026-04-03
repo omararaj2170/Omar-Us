@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1824 1026">
+  <defs>
+    <radialGradient id="spaceGlow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1b2f56" />
+      <stop offset="100%" stop-color="#04060f" />
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" />
+    </filter>
+  </defs>
+  <rect width="1824" height="1026" fill="url(#spaceGlow)" />
+
+  <g fill="#d9e8ff" opacity="0.9">
+    <circle cx="40" cy="78" r="2" /><circle cx="120" cy="130" r="1.8" /><circle cx="220" cy="55" r="2.1" />
+    <circle cx="360" cy="96" r="1.7" /><circle cx="510" cy="40" r="1.5" /><circle cx="700" cy="115" r="2.2" />
+    <circle cx="860" cy="70" r="1.7" /><circle cx="1050" cy="58" r="2" /><circle cx="1220" cy="92" r="1.9" />
+    <circle cx="1410" cy="48" r="1.8" /><circle cx="1590" cy="88" r="2" /><circle cx="1730" cy="62" r="1.6" />
+    <circle cx="90" cy="920" r="2" /><circle cx="260" cy="860" r="1.5" /><circle cx="420" cy="980" r="2.2" />
+    <circle cx="610" cy="890" r="1.8" /><circle cx="800" cy="940" r="2" /><circle cx="1010" cy="880" r="1.9" />
+    <circle cx="1260" cy="950" r="1.7" /><circle cx="1490" cy="900" r="1.8" /><circle cx="1710" cy="960" r="2" />
+  </g>
+
+  <g transform="translate(100,80)">
+    <path d="M20,350 L110,260 L350,260 L350,180 L620,180 L620,80 L980,80 L980,180 L1120,180 L1120,120 L1280,120 L1360,200 L1560,200 L1660,300 L1660,430 L1500,530 L1500,720 L1380,820 L1100,820 L980,920 L680,920 L560,820 L260,820 L120,720 L120,530 L20,430 Z"
+          fill="#24364f" stroke="#4d6f95" stroke-width="14" />
+
+    <rect x="190" y="250" width="320" height="220" rx="16" fill="#5a6f8a" opacity="0.65" />
+    <rect x="550" y="200" width="430" height="230" rx="20" fill="#7ba8c0" opacity="0.65" />
+    <rect x="1030" y="210" width="300" height="210" rx="18" fill="#53677d" opacity="0.7" />
+    <rect x="160" y="520" width="350" height="220" rx="18" fill="#4d5f75" opacity="0.65" />
+    <rect x="560" y="500" width="380" height="210" rx="18" fill="#617387" opacity="0.65" />
+    <rect x="980" y="500" width="430" height="240" rx="18" fill="#5a6d82" opacity="0.65" />
+
+    <rect x="380" y="360" width="220" height="90" fill="#33475f" opacity="0.7" />
+    <rect x="810" y="390" width="220" height="90" fill="#33475f" opacity="0.7" />
+    <rect x="690" y="690" width="240" height="80" fill="#33475f" opacity="0.7" />
+
+    <ellipse cx="110" cy="390" rx="75" ry="120" fill="#90b9ff" opacity="0.2" filter="url(#soft)" />
+    <ellipse cx="1620" cy="520" rx="75" ry="120" fill="#90b9ff" opacity="0.2" filter="url(#soft)" />
+  </g>
+</svg>

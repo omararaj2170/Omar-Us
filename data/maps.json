@@ -1,16 +1,52 @@
 {
   "maps": [
     {
+      "id": "skeld-classic",
+      "name": "Skeld Classic",
+      "taskGoal": 24,
+      "sabotages": [
+        "lights",
+        "comms",
+        "oxygen",
+        "reactor"
+      ],
+      "rooms": [
+        "Cafeteria",
+        "MedBay",
+        "Navigation",
+        "Upper Engine",
+        "Reactor",
+        "Admin",
+        "O2",
+        "Security",
+        "Electrical",
+        "Shields",
+        "Lower Engine",
+        "Communications",
+        "Weapons"
+      ],
+      "image": "skeld-classic.svg"
+    },
+    {
       "id": "orbital-one",
       "name": "Orbital One",
       "taskGoal": 18,
-      "sabotages": ["lights", "comms", "reactor"]
-    },
-    {
-      "id": "volcanic-lab",
-      "name": "Volcanic Lab",
-      "taskGoal": 24,
-      "sabotages": ["lights", "oxygen", "reactor"]
+      "sabotages": [
+        "lights",
+        "comms",
+        "reactor"
+      ],
+      "rooms": [
+        "Bridge",
+        "Cafeteria",
+        "Medbay",
+        "Security",
+        "Engine",
+        "Reactor",
+        "Comms",
+        "Storage"
+      ],
+      "image": "orbital-one.svg"
     }
   ]
 }

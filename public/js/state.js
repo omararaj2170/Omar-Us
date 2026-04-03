@@ -5,7 +5,7 @@ export const state = {
   gameName: "Starfall Syndicate",
   status: "connecting",
   map: null,
-  mapImage: "/assets/maps/orbital-one.svg",
+  mapImage: "/assets/maps/skeld-classic.svg",
   meetingActive: false,
   taskProgress: 0,
   taskGoal: 0,

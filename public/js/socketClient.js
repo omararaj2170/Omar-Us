@@ -30,7 +30,7 @@ export function connect() {
       patchState({
         gameName: data.gameName,
         map: data.map,
-        mapImage: `/assets/maps/${data.map?.id || "orbital-one"}.svg`,
+        mapImage: `/assets/maps/${data.map?.image || "skeld-classic.svg"}`,
         borders: data.borders,
         activeAddons: data.activeAddons,
         status: data.status,
