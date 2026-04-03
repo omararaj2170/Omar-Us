@@ -1,0 +1,13 @@
+{
+  "name": "starfall-syndicate",
+  "version": "1.1.0",
+  "description": "WebSocket social-deduction game prototype with modular Node + browser architecture",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "check": "node --check server/index.js && node --check server/gameEngine.js && node --check server/systems/ventSystem.js && node --check server/systems/addonSystem.js && node --check public/js/main.js && node --check public/js/socketClient.js && node --check public/js/actions.js && node --check public/js/render.js && node --check public/js/controls.js && node --check public/js/state.js && node --check public/js/mapRenderer.js && node --check public/js/borderRenderer.js && node --check public/js/addonsPanel.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}

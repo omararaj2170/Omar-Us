@@ -1,0 +1,16 @@
+{
+  "maps": [
+    {
+      "id": "orbital-one",
+      "name": "Orbital One",
+      "taskGoal": 18,
+      "sabotages": ["lights", "comms", "reactor"]
+    },
+    {
+      "id": "volcanic-lab",
+      "name": "Volcanic Lab",
+      "taskGoal": 24,
+      "sabotages": ["lights", "oxygen", "reactor"]
+    }
+  ]
+}

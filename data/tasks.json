@@ -1,0 +1,13 @@
+{
+  "taskPools": {
+    "orbital-one": [
+      "calibrate-reactor",
+      "align-sensors",
+      "prime-fuel-lines",
+      "upload-logs",
+      "route-power",
+      "stabilize-oxygen",
+      "decrypt-channel"
+    ]
+  }
+}

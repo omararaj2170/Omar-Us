@@ -1,0 +1,8 @@
+{
+  "gameName": "Starfall Syndicate",
+  "port": 3000,
+  "defaultRoom": "ORBIT",
+  "maxPlayers": 15,
+  "meetingVoteTimeoutMs": 45000,
+  "adminKey": "647523"
+}
