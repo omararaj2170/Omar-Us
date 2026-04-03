@@ -42,7 +42,7 @@ wss.on("connection", (ws) => {
 });
 
 function handleAdminCommands(data, room, ws) {
-  if (data.adminKey !== "1234") return; // Basic admin check
+  if (data.adminKey !== "647523") return; // Basic admin check
 
   switch (data.action) {
     case "kick":
