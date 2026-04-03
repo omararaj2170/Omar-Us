@@ -1,0 +1,18 @@
+{
+  "orbital-one": {
+    "vents": [
+      { "id": "cafeteria", "x": 8, "y": 4 },
+      { "id": "engine", "x": 2, "y": 10 },
+      { "id": "security", "x": 11, "y": 9 },
+      { "id": "reactor", "x": 1, "y": 14 },
+      { "id": "medbay", "x": 6, "y": 8 }
+    ],
+    "links": {
+      "cafeteria": ["medbay", "security"],
+      "medbay": ["cafeteria", "reactor"],
+      "security": ["cafeteria", "engine"],
+      "engine": ["security", "reactor"],
+      "reactor": ["engine", "medbay"]
+    }
+  }
+}

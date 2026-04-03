@@ -1,0 +1,40 @@
+{
+  "crew": [
+    "Navigator",
+    "Mechanic",
+    "Archivist",
+    "Guardian",
+    "Tracker",
+    "Medic",
+    "Analyst",
+    "Engineer",
+    "Noisemaker",
+    "Detective",
+    "Courier"
+  ],
+  "infiltrators": [
+    "Infiltrator",
+    "Mimic",
+    "Shade",
+    "Saboteur",
+    "Phantom",
+    "Viper"
+  ],
+  "abilityByRole": {
+    "Mechanic": ["vent", "repair"],
+    "Engineer": ["vent", "repair"],
+    "Archivist": ["vitals"],
+    "Tracker": ["track"],
+    "Guardian": ["shield"],
+    "Medic": ["revivePulse"],
+    "Detective": ["scanTrail"],
+    "Noisemaker": ["alarm"],
+    "Infiltrator": ["vent", "sabotage"],
+    "Saboteur": ["sabotage", "jamComms"],
+    "Mimic": ["disguise"],
+    "Shade": ["vent", "invisible"],
+    "Phantom": ["invisible", "vent"],
+    "Viper": ["acid"],
+    "Courier": ["speedBurst"]
+  }
+}
